@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: skyblue;
+}
+
+.table,
+.table tr,
+.table thead th,
+.table tbody td {
+    background-color: transparent !important;
+}
+
+.table {
+    background-color: rgba(192, 23, 23, 0.206) !important;
+    backdrop-filter: blur(20px);
+    border-radius: 20px !important;
+}
